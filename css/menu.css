@@ -1,0 +1,280 @@
+
+@font-face {
+    font-family: 'rubik';
+    src: url('../fonts/Rubik-Light.ttf');
+}
+
+@font-face {
+    font-family: 'mono';
+    src: url('../fonts/ShareTechMono-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'robotomono';
+    src: url('../fonts/RobotoMono-ExtraLight.ttf');
+}
+@font-face {
+    font-family: 'raleway';
+    src: url('../fonts/Raleway-Medium.ttf');
+}
+@font-face {
+    font-family: 'ralewaylight';
+    src: url('../fonts/Raleway-Light.ttf');
+}
+@font-face {
+    font-family: 'anton';
+    src: url('../fonts/Anton-Regular.ttf');
+}
+@font-face {
+    font-family: 'maven';
+    src: url('../fonts/MavenPro-Regular.ttf');
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(44,44,208,1) 0%, rgba(25,34,196,1) 42%, rgba(0,157,255,1) 100%);
+    color: #fff;
+    padding: 10px 10px;
+    box-sizing: border-box;
+  }
+  
+  .logo img {
+    max-height: 50px;
+  }
+  
+  .menu {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .menu li {
+    list-style: none;
+    margin: 0 10px;
+    font-family: "ralewaylight";
+    
+    
+  }
+  
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);
+  
+    padding: 0%;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .menu a:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: orange;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+  }
+  
+  .menu a:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .menu a:hover {
+  
+    color: orange;
+  }
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 200%;
+    right: 0;
+    z-index: 1;
+    background-color: #363f5671;
+    padding: 20px 10px;
+    min-width: 100px;
+  }
+
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  
+
+.inicio {
+    color: rgb(255, 102, 0) !important;
+
+
+}
+
+.logomenu {
+    width: 7em;
+    left: 3%;
+    top: 17%;
+    position: absolute;
+
+}
+
+.logomenu:hover {
+    transform: scale(1.05);
+}
+
+
+
+
+
+.footer {
+    background: rgb(44,45,130);
+background: linear-gradient(90deg, rgba(44,45,130,1) 0%, rgba(10,29,163,1) 35%, rgba(29,35,131,1) 100%);
+    color: white;
+    padding: 3%;
+    font-family: rubik;
+    
+}
+
+
+
+.foot2 a{
+    color: white;
+}
+.div1f{
+    margin-left: 0px;
+    color: white;
+}
+.parentf{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: ralewaylight;
+    justify-items: center;
+    margin-left: -125px;
+    font-size: 1em;
+
+}
+.div4f{
+    margin-top: 95px;
+    margin-left: -100px;
+    color: white;
+}
+.div4f a{
+    color: white;
+}
+.div1f a{
+    color: white;
+    
+}
+.div1f a:hover{
+    color: rgb(180, 190, 255);
+    
+}
+.div1f h1{
+    color: white;
+    
+}
+
+.div2f a{
+
+    color: white;
+}
+.div3f a{
+
+    color: white;
+}
+.div2f a:hover{
+    color: rgb(180, 190, 255);
+    
+}
+.div3f a:hover{
+    color: rgb(180, 190, 255);
+    
+}
+
+
+.foot2 a:hover{
+    color: rgb(180, 190, 255);
+    
+}
+.imgf{
+    position: absolute;
+    width: 1%;
+    margin-left: 0%;
+}
+.imgf:hover{
+    transform: scale(1.1);
+}
+
+.div5f{
+    
+    margin-left: 45.2%;
+    width: 100%;
+    
+}
+.div6f{
+    margin-top: 15%;
+    margin-left: 30%;
+    font-size: 2em;
+    text-align: center;
+}
+.div6f p{
+    
+    margin-left: -237%;
+    margin-bottom: -53%;
+    font-size: 0.5em;
+}
+.div6f a{
+    color: white;
+}
+
+.fa-facebook-square:hover{
+    color: #3b5998;
+}
+.fa-twitter-square:hover{
+    color: #1DA1F2;
+}
+
+@media screen and (max-width: 1234px) {
+   nav{
+    width: 100%;
+    font-size: 0.65em;
+    margin-right: 40%;
+
+   }     
+   .parentf{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 10px;
+}
+.div3f{
+    margin-left:40px !important;
+}
+.div2f{
+    margin-left: 26px;
+}
+.div6f{
+    padding: 5%;
+}
+.imgf{
+    width: 1em;
+}
+.logo img {
+    max-height: 30px;
+  }
+}

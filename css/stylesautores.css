@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'rubik';
+    src: url('../fonts/Rubik-Light.ttf');
+}
+@font-face {
+    font-family: 'mono';
+    src: url('../fonts/ShareTechMono-Regular.ttf');
+}
+@font-face {
+    font-family: 'robotomono';
+    src: url('../fonts/RobotoMono-ExtraLight.ttf');
+}
+.menu {
+    position: fixed;
+    width: 101%;
+    text-align:right;
+    margin-top: -1.8%;
+    margin-left: -1%;
+    padding: 0.3%;
+    font-size: 13px;
+    background: rgb(42,56,180);
+    background: linear-gradient(22deg, rgba(5, 7, 34, 0.975) 0%, rgb(1, 4, 29) 70%, rgb(1, 1, 3) 100%);
+
+
+}
+
+
+.listamenu a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.89);
+    font-family: "rubik";
+    padding:1%;
+    display: inline-block;
+    position: relative;
+
+}
+
+.listamenu a:after{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 4px;
+    bottom:0;
+    left: 0;
+    background-color:rgb(255, 102, 0);
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out;
+}
+.listamenu a:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+.listamenu a:hover{
+    
+    color: rgb(255, 102, 0);
+}
+.inicio{
+   color: rgb(255, 102, 0) !important;
+   
+ 
+}
+
+.logomenu{
+    width: 7em;
+    left:3%;
+    top: 10%;
+    position: absolute;
+    
+}
+.logomenu:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+.footer{
+    background: rgb(4,6,29);
+background: linear-gradient(22deg, rgba(4,6,29,0.9780287114845938) 0%, rgba(11,13,108,1) 78%, rgba(12,17,61,0.9752275910364145) 100%);
+color: white;    
+padding: 3%;
+font-family: rubik;
+}
+.foot2{
+margin-top:0%;
+padding: 3%;
+color: white;
+background: rgb(4,6,29);
+background: linear-gradient(22deg, rgba(4,6,29,0.9780287114845938) 0%, rgba(1,1,11,1) 78%, rgba(4,7,34,0.9752275910364145) 100%);
+}

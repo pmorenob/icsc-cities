@@ -1,0 +1,650 @@
+
+
+
+.principal {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+    
+    font-size: 1em;
+    padding-left: 1%;
+    margin-left: -1.1%;
+    margin-top: 2%;
+}
+
+.slider-framesp {
+    width: 100%; /*101%;*/
+    height: 100; /*102.5%;*/
+    margin: -15px auto 0; 
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0,font-family 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.slider-framesp ul {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    padding: 0;
+    width: 600%;
+    height: 100%;
+    animation: slidep 50s infinite alternate ease-in-out;
+}
+
+.slider-framesp li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider-framesp img {
+    width: 100%;
+    height: 100%;
+}
+@keyframes slidep {
+    0% {
+        margin-left: 0%
+    }
+
+    16% {
+        margin-left: -100%
+    }
+
+    32% {
+        margin-left: -200%
+    }
+
+    48% {
+        margin-left: -300%
+    }
+
+    64% {
+        margin-left: -400%
+    }
+
+    80% {
+        margin-left: -500%
+    }
+
+ 
+ 
+}
+
+.registro {
+    background-color: orange;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 16px 24px;
+    text-align: justify;
+    margin-right: 20%;
+    text-transform: uppercase;
+    width: auto;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+.envio {
+    background-color: orange;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 16px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+.llamado {
+    background-color: orange;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 16px 24px;
+    text-align: center;
+    text-transform: uppercase;
+    width: auto;
+    text-decoration: none;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.botones1{
+    justify-items: center;
+    color: rgba(0, 255, 255, 0);
+}
+
+.llamado:hover {
+    background-color: rgba(255, 255, 255, 0.192);
+    color: rgb(255, 255, 255);
+}
+
+.registro:hover {
+    background-color: rgba(255, 255, 255, 0.192);
+    color: rgb(255, 255, 255);
+
+}
+
+.envio:hover {
+    background-color: rgba(255, 255, 255, 0.192);
+    color: rgb(255, 255, 255);
+    
+}
+
+.info1 {
+    color: white !important;
+    font-family: ralewaylight;
+    text-align: center;
+    padding: 7%;
+    background: rgb(44,44,208);
+    background: linear-gradient(90deg, rgba(44,44,208,0.7077205882352942) 0%, rgba(0,157,255,1) 100%);
+    margin-left: -1%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.05em;
+    letter-spacing: 1px;
+    margin-bottom: 0%;
+}
+.info1pyv{
+    font-family: ralewaylight;
+    font-size: 1.6em;
+}
+
+.info1 h1 {
+    font-size: 3em;
+}
+
+.infogrid {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  
+    background-color: rgba(236, 227, 227, 0.151);
+    margin-top: 70px;
+    padding-left: 1%;
+    margin-left: -1%;
+    color: rgb(0, 0, 0);
+    font-family: ralewaylight;
+    text-align: left;
+}
+
+.slider-frames {
+    width: 100%;
+    height: 95%;
+    margin: 65px 0px;
+    overflow: hidden;
+    
+}
+
+.slider-frames ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: slide 50s infinite alternate ease-in-out;
+   
+}
+
+.slider-frames li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider-frames img {
+    width: 100%;
+    height: 90%;
+    box-shadow: 10px 8px 16px 0 rgba(0, 0, 0, 0.041), 0 6px 20px 0 rgba(0, 0, 0, 0.096);
+}
+
+@keyframes slide {
+    0% {
+        margin-left: 0%
+    }
+
+    20% {
+        margin-left: 0%
+    }
+
+    25% {
+        margin-left: -100%
+    }
+
+    45% {
+        margin-left: -100%
+    }
+
+    50% {
+        margin-left: -200%
+    }
+
+    70% {
+        margin-left: -200%
+    }
+
+    75% {
+        margin-left: -300%
+    }
+
+    95% {
+        margin-left: -300%
+    }
+}
+
+
+.infociudades {
+    margin-top: -3%;
+    padding: 10%;
+    text-align: justify;
+    font-family: ralewaylight;
+    font-size: 2.2vh;
+    color: rgba(0, 0, 0, 0.82);
+    line-height: 31px;
+}
+
+
+.flecha {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 80px;
+}
+
+.divflecha {
+    width: 100%;
+}
+
+
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: ralewaylight;
+    justify-items: center;
+    font-size: 1em;
+}
+
+.div1 {
+    
+    font-size: 2.6vh;
+    background: rgb(44,44,208);
+    background: linear-gradient(90deg, rgba(44,44,208,1) 0%, rgba(25,34,196,1) 42%, rgba(0,157,255,1) 100%);
+    border-radius: 30PX;
+    padding: 10%;
+    width: 60%;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div2 {
+   
+    font-size: 2.6vh;
+    background: rgb(44,44,208);
+    background: linear-gradient(90deg, rgba(44,44,208,1) 0%, rgba(25,34,196,1) 42%, rgba(0,157,255,1) 100%);
+    border-radius: 30PX;
+    padding: 10%;
+    width: 60%;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.div3 {
+    
+    font-size: 2.6vh;
+    background: rgb(44,44,208);
+    background: linear-gradient(90deg, rgba(44,44,208,1) 0%, rgba(25,34,196,1) 42%, rgba(0,157,255,1) 100%);
+    border-radius: 30PX;
+    padding: 10%;
+    width: 60%;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.fechasi {
+    margin-top: 60px;
+    text-align: center;
+    font-family: ralewaylight;
+    font-size: 2em;
+    width: 100%;
+    
+    height: 1.8em;
+    color: rgb(255, 255, 255);
+    padding-top: 7%;
+    padding-bottom: 4%;
+    background-image: url("../img/parallax1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    border-radius: 0 0 85% 85% / 5%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.parentau {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: ralewaylight;
+    justify-items: center;
+    margin-bottom: 40px;
+}
+
+.div1au {
+    background: rgb(49, 170, 18);
+    background: linear-gradient(90deg, rgba(49, 170, 18, 1) 9%, rgba(47, 167, 56, 1) 32%, rgba(58, 180, 125, 1) 100%);
+    border-radius: 30PX;
+    padding: 10%;
+    width: 70%;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.3em;
+}
+
+.div2au {
+    background: rgb(242, 129, 30);
+    background: linear-gradient(90deg, rgba(242, 129, 30, 1) 9%, rgba(246, 225, 18, 1) 60%, rgba(209, 188, 20, 1) 100%);
+    border-radius: 30PX;
+    padding: 10%;
+    width: 70%;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.3em;
+}
+
+.div3au {
+    background: rgb(47, 30, 242);
+    background: linear-gradient(90deg, rgba(47, 30, 242, 1) 9%, rgba(18, 53, 246, 1) 60%, rgba(20, 173, 209, 1) 100%);
+    border-radius: 30PX;
+    padding: 10%;
+    width: 70%;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.3em;
+}
+
+.div4au {
+    background: rgb(108, 30, 242);
+    background: linear-gradient(90deg, rgba(108, 30, 242, 1) 9%, rgba(194, 18, 246, 1) 60%, rgba(209, 20, 208, 1) 100%);
+    border-radius: 30PX;
+    padding: 10%;
+    width: 70%;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 1.3em;
+}
+
+.div1:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+.div2:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+.div3:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+.div1au:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+.div2au:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+.div3au:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+}
+
+.div4au:hover {
+    transform: scale(1.05);
+    transition-duration: 1s;
+}
+
+.ppos {
+    font-size: 2.5em;
+    
+}
+
+.inforeg {
+    text-align: center;
+    padding: 3px;
+    font-family: ralewaylight;
+    background-image: url("../img/parallax2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0 0 70% 70% / 3%;
+}
+
+
+    
+.slider-framecomite {
+    width: 50%;
+    
+    margin:  50px auto 0;
+    overflow: hidden;
+ 
+}
+
+.slider-framecomite ul {
+
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: slide 12s infinite alternate ease-in-out;
+ 
+}
+
+.slider-framecomite li {
+    list-style: none;
+    width: 40%;
+    height: 50%;
+}
+
+.slider-framecomite img {
+    width: 100%;
+    
+  
+}
+
+
+
+.slider-framepatroci {
+    width: 50%;
+    margin-left: 40%;
+    margin:  50px auto 0;
+    overflow: hidden;
+
+}
+
+.slider-framepatroci ul {
+
+    display: flex;
+    padding: 0;
+    width: 200%;
+    animation: slidepatro 8s infinite alternate ease-in-out;
+}
+
+.slider-framepatroci li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider-framepatroci img {
+    width: 100%;
+    
+    
+
+}
+@keyframes slidepatro {
+    0% {
+        margin-left: 0%
+    }
+
+    20% {
+        margin-left: 0%
+    }
+
+    25% {
+        margin-left: -100%
+    }
+
+    45% {
+        margin-left: -100%
+    }
+
+    50% {
+        margin-left: -100%
+    }
+
+    70% {
+        margin-left: -100%
+    }
+
+   
+    
+}
+
+
+
+
+.slider-framecolab {
+    width: 50%;
+    margin-left: 0%;
+    margin:  50px auto 0;
+    overflow: hidden;
+
+}
+
+.slider-framecolab ul {
+
+    display: flex;
+    padding: 0;
+    width: 500%;
+    animation: slide 18s infinite alternate ease-in-out;
+}
+
+.slider-framecolab li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider-framecolab img {
+    width: 100%;
+   
+    
+
+}
+
+.patrocin {
+    text-align: center;
+    font-family: ralewaylight;
+    margin-top: 200px;
+    color: rgb(87, 87, 87);
+}
+.parentpatro{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    font-family: ralewaylight;
+    justify-items: center;
+    margin-top: 15%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Media query para dispositivos móviles */
+
+@media screen and (max-width: 1234px) {
+    .principal {
+        margin-top: 10%;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.5fr;
+    }
+    .envio{
+        font-size: 0.5em !important;
+    }
+    .registro{
+        font-size: 0.5em !important;
+    }
+    .llamado{
+        font-size: 0.5em !important;
+    }
+
+    .infogrid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .infociudades{
+        margin-top: -10%;
+    }
+    .parentau{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .div1au{
+        margin-bottom: 20%;
+    }
+    .div2au{
+        margin-bottom: 20%;
+    }
+    .div3au{
+        margin-bottom: 20%;
+    }
+    .slider-frames img {
+        width: 90%;
+        height: 95%;
+        
+    }
+    .parent {
+     
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        border-bottom: 10%;
+    }
+    .div1{
+        margin-bottom: 20%;
+    }
+    .div2{
+        margin-bottom: 20%;
+    }
+    .registro{
+        margin-right: 10%;
+    }
+    .llamado{
+        padding: 5%;
+    }
+    .slider-framesp{
+        margin-left: -0.5%;
+        margin-top: 2%;
+        width: 100%;
+    }
+    .slider-frames img{
+        margin-left: 5%;
+    }
+    .parentpatro{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+}
+
